@@ -17,21 +17,25 @@ Explore
 
 
 <div className="relative bg-gray-300 rounded-lg h-auto w-[40vw] md:w-[15vw] py-8 flex justify-center items-center">
+  <div className="flex flex-col items-center gap-10">
 
-  <img
-    className="absolute -top-9 left-1/2 -translate-x-1/2 w-20 object-contain"
-    src={chaior}
-    alt="chair"
-  />
+    <img
+      className="absolute -top-9 left-1/2 -translate-x-1/2 w-20 object-contain"
+      src={chaior}
+      alt="chair"
+    />
 
-<div className="flex flex-col items-center gap-2 mt-8">
-<h4>Nordic Chair</h4>
-<p>$50.00</p>
+    <div className="flex flex-col items-center gap-2 mt-[4em]">
+      <h4 className="text-md font-bold">Nordic Chair</h4>
+      <p className="text-sm font-semibold">$50.00</p>
+    </div>
+
+    <span className="absolute -bottom-4 left-1/2 -translate-x-1/2 text-2xl">
+      <i className="bi bi-plus-circle-fill"></i>
+    </span>
+
+  </div>
 </div>
-
-</div>
-
-
 </div>
 
     )
